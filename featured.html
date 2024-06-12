@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Music Playlist Explorer</title>
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <header class="title-container">
+        <div class="title-item">
+            <h1 id="title-text">Music Playlist Explorer</h1>
+        </div>
+    </header>
+
+    <body>
+        <!-- <button class="home" onclick="window.location.href = 'index.html';">Back To Home</button> -->
+
+        <div id="playlist-container" class="playlist-container"></div>
+
+        <div id="playlist-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <img id="modal-cover" src="" alt="Playlist Cover" />
+                <h3 id="modal-name">Playlist Name</h3>
+                <p id="modal-creator">Creator:</p>
+                <button id="shuffle-button">Shuffle Songs</button>
+                <p id="modal-songs" class="song-modal-flex"></p>
+            </div>
+        </div>
+
+        <footer class="footer-container">
+            <div class="footer-item">
+                <button class="home" onclick="window.location.href = 'index.html';">Back To Home</button>
+            </div>
+        </footer>
+
+        <script src="data/data.js"></script>
+        <script src="script.js"></script>
+    </body>
+</hmtl>

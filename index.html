@@ -1,160 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Music Playlist Explorer</title>
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Header -->
-    <header class="title-container">
-        <div class="title-item">
-            <h1 id="title-text">Music Playlist Explorer</h1>
-        </div>
-    </header>
+<html>
+    <body>
+        <head>
+            <title>Music Playlist Explorer</title>
+            <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+            <link rel="stylesheet" href="style.css">
+        </head>
 
-    <!-- Main -->
-        <div class="playlist-container">
-
-            <!-- <div class="playlist-card">
-                <img class="playlist-img" src="./assets/playlist.png" alt="playlist-img">
-                <p>Playlist Title</p>
-                <p>Creator Name</p>
-                <div class="likes">
-                    <span>&#9825;</span>
-                    <p class="item">#</p>
-                </div>
+        <header class="title-container">
+            <div class="title-item">
+                <h1 id="title-text">Music Playlist Explorer</h1>
             </div>
+        </header>
 
-            <div class="playlist-card">
-                <img class="playlist-img" src="./assets/playlist.png" alt="playlist-img">
-                <p>Playlist Title</p>
-                <p>Creator Name</p>
-                <div class="likes">
-                    <span>&#9825;</span>
-                    <p class="item">#</p>
-                </div>
-            </div>
-
-            <div class="playlist-card">
-                <img class="playlist-img" src="./assets/playlist.png" alt="playlist-img">
-                <p>Playlist Title</p>
-                <p>Creator Name</p>
-                <div class="likes">
-                    <span>&#9825;</span>
-                    <p class="item">#</p>
-                </div>
-            </div>
-
-            <div class="playlist-card">
-                <img class="playlist-img" src="./assets/playlist.png" alt="playlist-img">
-                <p>Playlist Title</p>
-                <p>Creator Name</p>
-                <div class="likes">
-                    <span>&#9825;</span>
-                    <p class="item">#</p>
-                </div>
-            </div>
-            <div class="playlist-card">
-                <img class="playlist-img" src="./assets/playlist.png" alt="playlist-img">
-                <p>Playlist Title</p>
-                <p>Creator Name</p>
-                <div class="likes">
-                    <span>&#9825;</span>
-                    <p class="item">#</p>
-                </div>
-            </div>
-
-            <div class="playlist-card">
-                <img class="playlist-img" src="./assets/playlist.png" alt="playlist-img">
-                <p>Playlist Title</p>
-                <p>Creator Name</p>
-                <div class="likes">
-                    <span>&#9825;</span>
-                    <p class="item">#</p>
-                </div>
-            </div>
-
-            <div class="playlist-card">
-                <img class="playlist-img" src="./assets/playlist.png" alt="playlist-img">
-                <p>Playlist Title</p>
-                <p>Creator Name</p>
-                <div class="likes">
-                    <span>&#9825;</span>
-                    <p class="item">#</p>
-                </div>
-            </div>
-
-            <div class="playlist-card">
-                <img class="playlist-img" src="./assets/playlist.png" alt="playlist-img">
-                <p>Playlist Title</p>
-                <p>Creator Name</p>
-                <div class="likes">
-                    <span>&#9825;</span>
-                    <p class="item">#</p>
-                </div>
-            </div> -->
+        <main>
+            <!-- <button class="home" onclick="window.location.href = 'featured.html';">View All Playlists</button> -->
             
-        </div>
-    </main>
-
-    <!-- Modal -->
-    <div id="myModal" class="modal">
-
-        <div class="modal-content">
-            
-            <span class="close">&times;</span>
-
-            <div class="modal-content2">
-                <!-- <img class="playlist-img-modal" src="./assets/playlist.png" alt="playlist-img">
-    
-                <div class="modal-div2">
-                    <p>Playlist Title</p>
-                    <p>Creator Name</p>
-                </div> -->
-            </div>
-
-            <div class="modal-content3">
-                <img class="song-img" src="./assets/playlist.png" alt="playlist-img">
-    
-                <div class="modal-div3">
-                    <p>Playlist Title</p>
-                    <p>Creator Name</p>
+            <div id="random-container">
+                <div id="random-playlist-container" class="random-playlist-container"></div>
+                <div id="random-songs-container" class="random-songs-container">
+                    <div class="div2"></div>
                 </div>
             </div>
+        </main>
 
-            <div class="modal-content3">
-                <img class="song-img" src="./assets/playlist.png" alt="playlist-img">
-    
-                <div class="modal-div3">
-                    <p>Playlist Title</p>
-                    <p>Creator Name</p>
-                </div>
+        <footer class="footer-container">
+            <div class="footer-item">
+                <!-- <h3 id="footer-text">Footer</h3> -->
+                <button class="home" onclick="window.location.href = 'featured.html';">View All Playlists</button>
             </div>
-
-            <div class="modal-content3">
-                <img class="song-img" src="./assets/playlist.png" alt="playlist-img">
-    
-                <div class="modal-div3">
-                    <p>Playlist Title</p>
-                    <p>Creator Name</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-      
-    <!-- Footer -->
-    <footer class="footer-container">
-        <div class="footer-item">
-            <h3 id="footer-text">Footer</h3>
-        </div>
-    </footer>
-
-    <script src="data/data.js"></script>
-    <script src="script.js"></script>
-</body>
+        </footer>
+        <script src="data/data.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
