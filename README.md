@@ -4,8 +4,6 @@ Submitted by: **Julia Chaidez**
 
 Estimated time spent: **12** hours spent in total
 
-Deployed Application (optional): [Music Playlist Explorer Deployed Site](ADD_LINK_HERE)
-
 ### Application Features
 
 #### CORE FEATURES
@@ -50,23 +48,21 @@ Deployed Application (optional): [Music Playlist Explorer Deployed Site](ADD_LIN
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+`https://youtu.be/5AO7pc7BH50?si=yzHQHPXt10nOSzul`
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+I did not feel very prepared after the lessons and labs. To do the project I felt like I needed a lot of outside help. It felt very rushed, but the in class demos by the instructors were helpful.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I had more time I would have worked on cleaning up my code. I think I could have condense some of the CSS and used better naming for my classes, varaibles, etc., but I was short on time. I really wish I could have implemented some of the stretch features like the search bar or sort because they would make it feel more like a functioning website.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+For my presentation I need to work on not talking to my computer! I should set back and really take my time to explain my website/code before jumping right into the demo. I liked that my peers were very open about the things they did well on and the things they struggled with. I also enjoyed seeing everyone add their own personal style to the website.
 
 ### Open-source libraries used
 
@@ -74,4 +70,4 @@ Add your response here
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Shoutout to my Codepath advisor Alex, fellow peer Karina for working on the project with me, Devarsh for recording that video, Einstein AI, and W3Schools!
